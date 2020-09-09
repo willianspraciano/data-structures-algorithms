@@ -1,0 +1,44 @@
+PARA COMPILAR NO LINUX: 
+gcc algoritmos.c -c -lm && gcc algoritmos.o main.c -o main -lm && ./main
+
+=========================================
+Para 10^2
+Tempo do BubbleSort: 0.038000 ms
+Tempo do InsertionSort: 0.019000 ms
+Tempo do QuickSort: 0.009000 ms
+Tempo do MergeSort: 0.022000 ms
+Tempo do HeapSort: 0.018000 ms
+=========================================
+=========================================
+Para 10^3
+Tempo do BubbleSort: 2.572000 ms
+Tempo do InsertionSort: 1.296000 ms
+Tempo do QuickSort: 0.125000 ms
+Tempo do MergeSort: 0.207000 ms
+Tempo do HeapSort: 0.226000 ms
+=========================================
+=========================================
+Para 10^4
+Tempo do BubbleSort: 304.109000 ms
+Tempo do InsertionSort: 126.381000 ms
+Tempo do QuickSort: 1.320000 ms
+Tempo do MergeSort: 2.150000 ms
+Tempo do HeapSort: 2.687000 ms
+=========================================
+=========================================
+Para 10^5
+Tempo do BubbleSort: 38983.043000 ms
+Tempo do InsertionSort: 12818.022000 ms
+Tempo do QuickSort: 15.628000 ms
+Tempo do MergeSort: 26.868000 ms
+Tempo do HeapSort: 36.791000 ms
+=========================================
+=========================================
+Para 10^6
+Tempo do BubbleSort: 3710101.114000 ms
+Tempo do InsertionSort: 1274400.880000 ms
+Tempo do QuickSort: 187.565000 ms
+Tempo do MergeSort: 312.754000 ms
+Tempo do HeapSort: 517.673000 ms
+=========================================
+
